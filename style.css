@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
+@import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+@import url(http://fonts.googleapis.com/earlyaccess/lateef.css);
+
+body {
+    background-image: url(https://www.wallpaperbetter.com/wallpaper/576/927/643/coffee-bean-high-res-image-2K-wallpaper.jpg);
+    padding: 100px;
+}
+
+
+#BannerFrame {
+    margin-right: 35%;
+    margin-left: 35%;
+    background-color: blanchedalmond;
+    padding: 2px;
+}
+
+
+#Banner {
+    color: blanchedalmond;
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    padding: 5px;
+}
+
+
+#PageFrame {
+    background-color: blanchedalmond;
+    margin-top: 100px;
+    padding: 2px; 
+}
+
+#Page {
+   padding-left: 150px;
+   padding-right: 150px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-color: black;
+   color: blanchedalmond;
+}
+
+
+#Content1 .SubHead {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+#Content1 .Paragraph {
+    text-align: justify;
+    padding-bottom: 85px;
+    font-family:monospace;
+    font-size: large;
+}
+
+#Content1 .Sufis {
+    color: rgb(225, 0, 255);
+    font-weight: bold;
+}
+
+#Content2 .SubHead {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+
+#Content2 .Paragraph {
+    text-align: justify;
+    padding-bottom: 115px;
+    font-family:monospace;
+    font-size: large;
+}
+
+
+#Content3 .SubHead {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 170px;
+}
+
+
+th, td {
+    border-top: 1px solid blanchedalmond;
+    border-bottom: 1px solid blanchedalmond;
+    padding: 20px;
+}
+
+td {
+    font-family:monospace;
+    font-size: 15px;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+#Content4 .SubHead {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.Video, iframe {
+    width: 727px;
+    height: 409px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+
+iframe {
+    display: block;
+    border-style: none;
+}
+
+
+#Rainbow {
+    animation: Rainbow 5s infinite;
+}
+
+@keyframes Rainbow {
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+}
+
+
+
+#Content5 .SubHead {
+    text-align: center;
+    padding: 20px;
+}
+
+#Content5 p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+#DragBox {
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    border: 2px solid blanchedalmond;
+}
+
+
+#DropBox {
+    float:right;
+    width: 100px;
+    height: 100px;
+    margin-right: 30%;
+    border: 2px solid blanchedalmond;
+    text-align: center;
+}
+
+#DropBox h5 {
+    padding-top: 40px;
+}
+
+
+
+
+#Content6 {
+    text-align: center;
+    padding-top: 250px;
+}
+
+#Content6 .SubHead {
+    padding-bottom: 25px;
+}
+
+#Content6 .Name {
+    padding-bottom: 8px;
+    font-family: tahoma;
+}
+
+#Content6 .Email {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+#FormFrame {
+    margin-right: 38%;
+    margin-left: 38%;
+    margin-top: 100px;
+    background-color: blanchedalmond;
+    padding: 2px;    
+}
+
+
+form {
+    color: blanchedalmond;
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+}
+
+form h1 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+form input {
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: black;
+    border-color: blanchedalmond;
+    border-radius: 15px;
+    color: blanchedalmond;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+#ReferencesFrame {
+    margin-right: 35%;
+    margin-left: 35%;
+    background-color: blanchedalmond;
+    padding: 2px;
+    margin-top: 100px;
+}
+
+
+#References {
+    color: blanchedalmond;
+    background-color:black;
+    padding: 20px;
+}
+
+#References h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+#References h5 {
+    padding-bottom: 5px;
+    padding-top: 32px;
+}
+
+#References li {
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+
+#References a {
+    color: rgb(97, 166, 255);
+    text-decoration: none;
+}
+
+
+
+#FooterFrame {
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-top: 100px;
+    background-color: blanchedalmond;
+    padding: 2px;    
+}
+
+
+#FooterFrame footer {
+    color: blanchedalmond;
+    background-color:black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+footer .a {
+    padding-bottom: 15px;
+}
+
+#Heart {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
